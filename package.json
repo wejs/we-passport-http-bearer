@@ -1,6 +1,6 @@
 {
-  "name": "passport-http-bearer",
-  "version": "1.0.1",
+  "name": "we-passport-http-bearer",
+  "version": "0.3.0",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -12,14 +12,12 @@
     "http",
     "bearer",
     "token",
-    "oauth"
+    "oauth",
+    "We.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http-bearer.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport-http-bearer/issues"
+    "url": "git@github.com:wejs/we-passport-http-bearer.git"
   },
   "author": {
     "name": "Jared Hanson",

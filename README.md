@@ -1,9 +1,4 @@
-# passport-http-bearer
-
-[![Build](https://travis-ci.org/jaredhanson/passport-http-bearer.png)](http://travis-ci.org/jaredhanson/passport-http-bearer)
-[![Coverage](https://coveralls.io/repos/jaredhanson/passport-http-bearer/badge.png)](https://coveralls.io/r/jaredhanson/passport-http-bearer)
-[![Dependencies](https://david-dm.org/jaredhanson/passport-http-bearer.png)](http://david-dm.org/jaredhanson/passport-http-bearer)
-
+# we-passport-http-bearer
 
 HTTP Bearer authentication strategy for [Passport](http://passportjs.org/).
 
@@ -19,7 +14,7 @@ integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-http-bearer
+    $ npm install we-passport-http-bearer
 
 ## Usage
 
@@ -51,7 +46,7 @@ support, so the `session` option can be set to `false`.
 For example, as route middleware in an [Express](http://expressjs.com/)
 application:
 
-    app.get('/profile', 
+    app.get('/profile',
       passport.authenticate('bearer', { session: false }),
       function(req, res) {
         res.json(req.user);
