@@ -1,6 +1,6 @@
 {
   "name": "we-passport-http-bearer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -22,7 +22,7 @@
   "author": {
     "name": "Alberto Souza",
     "email": "alberto.souza.dev@gmail.com",
-    "url": "http://albertosouza.net/"
+    "url": "http://albertosouza.net"
   },
   "licenses": [
     {
@@ -44,15 +44,5 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
-  },
-  "testling": {
-    "browsers": [
-      "chrome/latest"
-    ],
-    "harness" : "mocha",
-    "files": [
-      "test/bootstrap/testling.js",
-      "test/*.test.js"
-    ]
   }
 }
