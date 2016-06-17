@@ -1,6 +1,6 @@
 {
   "name": "we-passport-http-bearer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
     "passport",
